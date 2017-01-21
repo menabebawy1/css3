@@ -2,7 +2,7 @@
 body {
     background-image: url(horror.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     /*makes the background cover the whole page*/
 }
 
@@ -16,14 +16,19 @@ p {
     width: 100%;
     text-align: center;
     color: black;
-    z-index: 2; /*Puts the image on top of other items*/
-    display: block;  /*makes the header take the most space possible*/
+    z-index: 2;
+    /*Puts the image on top of other items*/
+    display: block;
+    /*makes the header take the most space possible*/
     font-size: 2.5em;
     font-family: 'Nosifer', cursive;
     text-shadow: 5px 5px 5px grey;
-    position: fixed; /*Makes the header stay fixed in the same position as the user scrolls*/
-    padding: 0, 10px 10px 10px;  /*adds extra space around the image*/
-    border-radius: 90px;  /*makes the header have round corners*/
+    position: fixed;
+    /*Makes the header stay fixed in the same position as the user scrolls*/
+    padding: 0, 10px 10px 10px;
+    /*adds extra space around the image*/
+    border-radius: 90px;
+    /*makes the header have round corners*/
     animation-name: headercolor;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -34,15 +39,18 @@ p {
         color: black;
     }
     to {
-        color: #970000;  /*blood red color*/
+        color: #970000;
+        /*blood red color*/
     }
 }
 
 .hand {
     display: block;
-    position: relative; /*makes the body take the most space possible*/
+    position: relative;
+    /*makes the body take the most space possible*/
     top: 250px;
-    margin: auto;  /*Makes the margin  of the body based on the resolution*/
+    margin: auto;
+    /*Makes the margin  of the body based on the resolution*/
     height: 1100px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -62,9 +70,12 @@ p {
     height: 200px;
     width: 200px;
     bottom: 750px;
-    z-index: 3; /*Makes the image appear on top of other items*/
-    opacity: 0.6;   /*Makes the image a bit transparent*/
-    transition: width 3s, height 3s, transform 3s; /*allows these transformations and height and with to happen in 3 seconds*/
+    z-index: 3;
+    /*Makes the image appear on top of other items*/
+    opacity: 0.6;
+    /*Makes the image a bit transparent*/
+    transition: width 3s, height 3s, transform 3s;
+    /*allows these transformations and height and with to happen in 3 seconds*/
 }
 
 #haunted:hover {
